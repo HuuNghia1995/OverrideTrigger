@@ -7,7 +7,7 @@ pipeline {
     stages {	
         stage('Build') {	
             steps {
-                echo 'Hello World 4-1'
+                echo 'Hello 2'
 		echo env.BRANCH_NAME
             }	
         }	
