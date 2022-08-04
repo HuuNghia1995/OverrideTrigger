@@ -2,8 +2,7 @@ pipeline {
     agent any	
     options {	
 		timestamps()
-		overrideIndexTriggers(false)
-	        overrideIndexTriggers(env.BRANCH_NAME == 'thang')
+		overrideIndexTriggers(true)
     }
     stages {	
         stage('Build') {	
